@@ -1,0 +1,252 @@
+/*Форматирование страницы*/
+* {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 300;
+    color: #707070;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.button {
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+
+    padding: 20px;
+
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+
+    text-transform: uppercase;
+}
+
+
+
+/*Шапка сайта*/
+.header {
+    background-color: white;
+}
+
+.header__block, .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+    padding-bottom: 0;
+
+    text-transform: uppercase;
+}
+
+.logo-img {
+    max-width: 180px;
+    width: 100%;
+}
+
+.logo-title {
+    margin-top: 5px;
+
+    font-size: 48px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: 10px;
+}
+
+.nav__button {
+    border: 0;
+    background-color: white;
+    width: 25%;
+
+    padding: 20px 80px;
+
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 300;
+    
+}
+
+.nav__button:hover {
+    cursor: pointer;
+    background-color: rgba(112, 112, 112, 0.2);
+}
+
+.nav__button a {
+    width: 100%;
+
+    color: #707070;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+
+
+/*Подвал сайта*/
+.footer {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer__block {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 20px;
+
+    font-size: 26px;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    text-align: left;
+}
+
+.footer__nav a {
+    width: 100%;
+
+    color: #707070;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    text-align: justify;
+}
+
+.social-medias {
+    margin-bottom: 3px;
+}
+
+.social-medias img {
+    max-width: 24px;
+}
+
+
+
+/*Главная часть сайта*/
+.main {
+    background: url('../img/Background.jpg') no-repeat center / cover;
+}
+
+
+
+/*Промо сайта (index.html)*/
+.promo__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 5px;
+
+    color: white;
+}
+
+.promo__text {
+    font-size: 48px;
+    text-shadow: 2px 0 2px #000000,
+                 0 2px 2px #000000,
+                 -2px 0 2px #000000,
+                 0 -2px 2px #000000;
+}
+
+.promo__text-upper {
+    text-transform: uppercase;
+}
+
+.promo__booking {
+    margin: 30px 0;
+}
+
+.promo__booking:hover {
+    cursor: pointer;
+
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+/*Раздел "О нас"*/
+.about_us__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;   
+}
+
+.about_us__title--block {
+    margin: 0 10px;
+    width: 100%;
+    text-align: center;
+
+    background-color: white;
+}
+
+.about_us__title {
+    padding: 5px;
+
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.about_us__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 10px 0;
+}
+
+.about_us__card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.about_us__card--img {
+    max-width: 500px;
+    width: 100%;
+}
+
+.about_us__card--info {
+    padding: 10px 20px;
+    font-size: 26px;
+}
+
+
+
+/*Раздел "Меню"*/
+
+
+
+/*Раздел "Контакты"*/
+
+
+
+/*Заказ столика (booking.html)*/
+
+
+
+/*Адаптация сайта*/
